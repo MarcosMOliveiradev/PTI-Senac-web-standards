@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+a {
+    src: unset;
+}
+
+html {
+    font-size: 62.5%;
+    --roboto: 'Roboto', sans-serif;
+
+    font-family: var(--roboto);
+    scroll-behavior: smooth;
+}
+
+/* Parte da navbar */
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 12.7rem;
+    background: #2D3250;
+}
+
+.ref {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 400;
+    gap: 2.5rem;
+}
+
+.ref a {
+    color: white;
+}
+
+.ref a:hover {
+    color: #e4e4e4;
+}
+
+/* Primeira seção "home" */
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    background: #FCB48C;
+    height: 49.4rem;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+}
+
+.text h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.text .subTitle {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.text .chamada1 {
+    font-size: 1.4rem;
+    margin-top: 3.4rem;
+    color: #954B21;
+}
+
+.text a {
+    display: flex;
+    width: 15.9rem;
+    height: 4.9rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: var(--roboto);
+    font-size: 1.4rem;
+    font-weight: 400;
+    background: #575B73;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3.4rem;
+}
+
+.text a:hover {
+    background: #1f285c;
+}
+
+/* Segunda seção "Sobre" */
+
+.sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #e4e5ec;
+    height: 34rem;
+
+}
+
+.sobre h2 {
+    margin-top: 2rem;
+    font-family: var(--roboto);
+    font-size: 2rem;
+}
+
+.sobre h3 {
+    margin-top: 2rem;
+    font-family: var(--roboto);
+    font-size: 1.5rem;
+    width: 80rem;
+    font-weight: 400;
+}
+
+/* Terceira seção "serviços" */
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    background: #F9C7AB;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.servicos h2 {
+    margin-top: 2rem;
+}
+
+.servicos .tabela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background: #fff;
+    width: 60rem;
+    height: 20rem;
+    border-radius: .5rem;
+}
+
+.servicos .tabela h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.servicos .tabela p {
+    padding-bottom: 1rem;
+}
+
+.servicos .chamada2 {
+    margin-top: 4.6rem;
+    padding-bottom: 2rem;
+}
+
+.servicos .chamada2 a {
+    color: #953D21;
+}
+
+.servicos .chamada2 a:hover {
+    color: #be8675;
+}
+
+/* quarta seção "galeria */
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55rem;
+    background: #CBCCD8;
+}
+
+.galeria h2 {
+    margin-top: 2rem;
+    font-family: var(--roboto);
+    font-size: 2rem;
+}
+
+.galeria .grid {
+    margin-top: 3rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.galeria p {
+    font-family: var(--roboto);
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+/* Quinta seção "contato" */
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato h2 {
+    font-family: var(--roboto);
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.contato .telefone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    height: 15rem;
+    width: 38rem;
+    margin-top: 1rem;
+    background: #f1f1f1;
+}
+
+.contato .telefone p {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.contato .form p {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contato .form {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--roboto);
+    font-size: 1.6rem;
+    width: 45rem;
+}
+
+.contato input {
+    height: 3rem;
+    background: #EEEEEE;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.contato textarea {
+    background: #EEEEEE;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+}
+
+.contato button {
+    width: 21.7rem;
+    height: 6.7rem;
+    background: #D27B4A;
+    color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background: #72442a;
+}
+
+footer {
+    margin-top: 2rem;
+    background: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media  (max-width: 900px) {
+    .sobre {
+        width: 100%;
+        height: 48rem;
+    }
+
+    .sobre h3 {
+        width: 50rem;
+    }
+
+    .galeria {
+        height: 46rem;
+    }
+    .galeria .grid img {
+        width: 18rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .text .subTitle {
+        font-size: 1.4rem;
+    }
+
+    .text .chamada1 {
+        font-size: 1.2rem;
+    }
+
+    .img img {
+        width: 25rem;
+    }
+
+    .servicos .tabela {
+        width: 46rem;
+        font-size: 1.6rem;
+    }
+
+    .servicos .chamada2 {
+        font-size: 1.6rem
+    }
+
+    .galeria {
+        height: 36rem;
+    }
+
+    .galeria .grid img {
+        width: 13rem;
+    }
+}
