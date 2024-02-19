@@ -337,3 +337,46 @@ footer {
         width: 13rem;
     }
 }
+
+@media (max-width: 500px) {
+    .img img {
+        width: 20rem;
+    }
+
+    .sobre {
+        height: 58rem;
+    }
+
+    .sobre h3 {
+        width: 35rem;
+    }
+
+    .servicos .chamada2 {
+        font-size: 1.2rem
+    }
+
+    .galeria .grid img {
+        width: 10rem;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contato .form {
+        font-size: 1.4rem;
+        align-items: center;
+    }
+
+    .contato input {
+        height: 3rem;
+        width: 50%;
+    }
+
+    .contato textarea {
+        width: 50%;
+    }
+}
