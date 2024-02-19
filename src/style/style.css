@@ -371,6 +371,10 @@ footer {
         align-items: center;
     }
 
+    .contato .form p {
+        font-size: 1.5rem;
+    }
+
     .contato input {
         height: 3rem;
         width: 50%;
